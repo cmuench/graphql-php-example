@@ -1,0 +1,20 @@
+{
+    "name": "muench-dev/graphql-server-example",
+    "description": "A simple graphql server in PHP",
+    "type": "project",
+    "require": {
+        "webonyx/graphql-php": "^14.11"
+    },
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "MuenchDev\\GraphqlServerExample\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Christian Münch",
+            "email": "christian@muench-worms.de"
+        }
+    ]
+}
